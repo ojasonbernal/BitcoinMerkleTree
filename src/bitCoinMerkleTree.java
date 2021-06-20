@@ -1,5 +1,5 @@
 /*
-File: bitCoinMerkleTree.java
+File: bitcoinMerkleTree.java
 Project: CSCE314 Project, Fall 2020
 Author: Jason Bernal, Warren Zhou
 Date: 11/7/2020
@@ -17,15 +17,15 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 //INHERITANCE USED HERE
-public class bitCoinMerkleTree extends merkleTree{
+public class bitcoinMerkleTree extends merkleTree{
 
     //default constructor
-    public bitCoinMerkleTree(){
+    public bitcoinMerkleTree(){
         super();
     }
 
     //parameterized constructor
-    public bitCoinMerkleTree(ArrayList<Transaction> transactions){
+    public bitcoinMerkleTree(ArrayList<Transaction> transactions){
         super(transactions);
     }
 
@@ -33,9 +33,9 @@ public class bitCoinMerkleTree extends merkleTree{
     //performs the hash on a given transaction and returns that hash
     public <T> Transaction performHash(T value) {
         //perform hash for bitcoin specifically
-        //This code was taken and modified slightly from GeeksForGeeks (We are not passing this hash as ours)
-        //We modified this slightly by changing the output of the function to be a transaction object instead of a string
-        //we also used SHA-256 instead of 512 and outputted 16 bit instead of 32
+        //This code was taken and modified slightly from GeeksForGeeks
+        //I modified this slightly by changing the output of the function to be a transaction object instead of a string
+        //I also used SHA-256 instead of 512 and outputted 16 bit instead of 32
         //https://www.geeksforgeeks.org/sha-512-hash-in-java/?ref=rp
         {
             try {
