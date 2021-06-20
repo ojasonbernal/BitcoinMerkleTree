@@ -1,14 +1,7 @@
 /*
-File: Transaction.java
-Project: CSCE314 Project, Fall 2020
-Author: Jason Bernal, Warren Zhou
-Date: 11/7/2020
-Section: 501, 502 (respectively)
-Email: ojasonbernal@tamu.edu, warrenzliu@tamu.edu (respectively)
-
 This class is used to store the information that could happen inside of a transaction for example,
 the value of the transaction, the buyer, the id, etc.
- */
+*/
 
 
 public class Transaction {

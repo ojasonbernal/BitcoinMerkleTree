@@ -1,14 +1,7 @@
 /*
-File: merkleTree.java
-Project: CSCE314 Project, Fall 2020
-Author: Jason Bernal, Warren Zhou
-Date: 11/7/2020
-Section: 501, 502 (respectively)
-Email: ojasonbernal@tamu.edu, warrenzliu@tamu.edu (respectively)
-
 This file contains the merkleTree object for our project. This will be our implementation of the data structure Merkle Tree.
-We will use this to store and verify transactions.
- */
+I will use this to store and verify transactions.
+*/
 
 
 
