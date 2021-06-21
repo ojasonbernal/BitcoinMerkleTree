@@ -42,13 +42,13 @@
 ## About The Project
 Merkle Trees are used in cryptography, more specifically, encryption, to store and verify data. Sensitive information nowadays is likely encrypted and thus the use of the Merkle Tree has become more prevalent. The Merkle Tree uses a hash to store the data. Hashing is the process of taking an input and converting it to a hash value, which is typically determined by an algorithm. This maps an input to a fixed output meaning that a certain input will always return the same output. Doing this helps protect the initial information of the input. The hash values are then continually summed together to find the next upper node on the tree. The top hash value can be used to determine if data has been modified. Some real life application examples are Bitcoin, data verification, and data synchronization.
 
-Since the Merkle Tree is based off of trees, they have the same functions as trees such as insert, delete, and searching. All of these functions take **O(logn)** time to run which ties back to why Merkle Trees are efficient. Another function is synchronization which also runs in **O(logn)** time, so it’s fast to figure out if data has been changed. The previous block chain design that was used would run these same functions in **O(n)** time.
+Since Merkle Trees are a tree-like structure, they have the same functions as trees such as insert, delete, and search. All of these functions take **O(logn)** time to run which ties back to why Merkle Trees are efficient. Another function is synchronization which also runs in **O(logn)** time, so it’s fast to figure out if data has been changed. The previous block chain design that was used would run these same functions in **O(n)** time.
 
 For Bitcoin, it helps with consistency verification, which means verifying that new trees contain the same data as the original trees in the same order. For data verification, Merkle Trees help check if data has been altered in the tree. Merkle Trees can figure out what has changed between two trees without needing to go through the entire data.
 
 Results of the project
 * Incorporation of hash algorithm to create the tree from the original data blocks.
-* Implementation of inheritance, polymorphism, collections, generics, and abstract classes
+* Implementation of inheritance, polymorphism, collections, generics, and abstract classes.
 * Supports efficient mapping of large amounts of data and recognition of modified data.
 
 A list of commonly used resources that I found helpful are listed in the acknowledgements.
