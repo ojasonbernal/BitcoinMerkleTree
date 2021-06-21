@@ -86,7 +86,7 @@ The data block is then hashed and summed with another hashed data block to creat
 
 <img src="images/transactionHashed.PNG" alt="Transaction Hashed" width="800" height="100">
 
-The tree is then accessed directly to show to the user the hashed values are the same, thus verifying the data's integrity has remained intact. A message showcasing this is printed to the console.
+The tree is then accessed directly to show the user the hashed values are the same, thus verifying the data's integrity has remained intact. A message showcasing this is printed to the console.
 
 <img src="images/verification.PNG" alt="Verification" width="600" height="25">
 
