@@ -57,6 +57,9 @@ A list of commonly used resources that I found helpful are listed in the acknowl
 
 The Merkle Tree data structure was built using Java.
 
+A UML (Unified Modeling Language) diagram was constructured to better illustrate how the program was developed and how the classes interact with one another. There are three main classes along with the driver class that will execute the program.
+
+<img src="images/UML.png" alt="UML Diagram" width="700" height="500">
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -74,7 +77,8 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Upon executing the program, the Merkle Tree data structure is constructed with a small data set. An example of a transaction (data block) is printed to the console for the user.
+
+Upon executing the program, the Merkle Tree data structure is constructed from a small data set. An example of a transaction (data block) is printed to the console for the user.
 
 <img src="images/transaction.PNG" alt="Transaction" width="300" height="100">
 
