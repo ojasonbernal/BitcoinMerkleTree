@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a>
-    <img src="images/merkleTree.png" alt="Merkle Tree" width="550" height="350">
+    <img src="images/merkleTree.png" alt="Merkle Tree" width="550" height="auto">
   </a>
   <h3 align="center">Bitcoin Merkle Tree</h3>
   <p align="center">
