@@ -58,7 +58,7 @@ The Merkle Tree data structure was built using Java.
 
 A UML (Unified Modeling Language) diagram was constructured to better illustrate how the program was developed and how the classes interact with one another. There are three main classes along with the driver class that will execute the program.
 
-<img src="images/UML.png" alt="UML Diagram" width="700" height="500">
+<img src="images/UML.png" alt="UML Diagram" width="700" height="auto">
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -79,15 +79,15 @@ To get a local copy up and running follow these simple example steps.
 
 Upon executing the program, the Merkle Tree data structure is constructed from a small data set. An example of a transaction (data block) is printed to the console for the user.
 
-<img src="images/transaction.PNG" alt="Transaction" width="300" height="100">
+<img src="images/transaction.PNG" alt="Transaction" width="300" height="auto">
 
 The data block is then hashed and summed with another hashed data block to create a node on the tree. This process continues until there is a single root node. The program prints the hashed value of the example transaction to the console for the user to see. 
 
-<img src="images/transactionHashed.PNG" alt="Transaction Hashed" width="800" height="100">
+<img src="images/transactionHashed.PNG" alt="Transaction Hashed" width="800" height="auto">
 
 The tree is then accessed directly to show the user the hashed values are the same, thus verifying the data's integrity has remained intact. A message showcasing this is printed to the console.
 
-<img src="images/verification.PNG" alt="Verification" width="600" height="25">
+<img src="images/verification.PNG" alt="Verification" width="600" height="auto">
 
 
 
